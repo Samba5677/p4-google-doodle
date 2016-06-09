@@ -1,16 +1,44 @@
-/* Stage */
+.wrapper {
+    position: relative;
+}
 
 #stage {
-    background: gray;
     height: 300px;
     width: 600px;
 }
 
-#stage #star {
- width: 100px;
- height: 100px;
+#vcd {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 150px;
+
+  text-transform: uppercase;
+  font-family: 'Lobster', cursive;
+  color: #00000;
+  margin-top: -280px;
+    left: 160px;
+    position: absolute;
+    padding-right: 40px;
 }
 
+/* Text Color */
+
+.v {
+    color: firebrick;
+    padding-right: 20px;
+    display: inline-flex;
+}
+
+.c {
+    color: darkgreen;
+    padding-right: 20px;
+    display: inline-flex;
+}
+
+.d {
+    color: darkblue;
+    display: inline-flex;
+}
 
 /* DO NOT EDIT BELOW THIS LINE */
 
